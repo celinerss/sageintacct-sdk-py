@@ -38,49 +38,20 @@ from .journal_entries import JournalEntries
 from .revenue_recognition_schedules import RevRecSchedules
 from .revenue_recognition_schedule_entries import RevRecScheduleEntries
 from .cost_types import CostTypes
+from .purchasing import Purchasing
 from .order_entry_transactions import OrderEntryTransactions
 from .allocation_entry import AllocationEntry
 from .allocations import Allocations
 
 __all__ = [
-    'ApiBase',
-    'Contacts',
-    'Contracts',
-    'ContractLines',
-    'Locations',
-    'Employees',
-    'Accounts',
-    'ExpenseTypes',
-    'Attachments',
-    'ExpenseReports',
-    'Vendors',
-    'Bills',
-    'Projects',
-    'Departments',
-    'ChargeCardAccounts',
-    'ChargeCardTransactions',
-    'Customers',
-    'Items',
-    'APPayments',
-    'AllocationEntry',
-    'ARInvoices',
-    'ARInvoiceItems',
-    'ARPayments',
-    'Reimbursements',
-    'CheckingAccounts',
-    'SavingsAccounts',
-    'Dimensions',
-    'DimensionValues',
-    'Tasks',
-    'ExpensePaymentTypes',
-    'LocationEntities',
-    'TaxDetails',
-    'GLDetail',
-    'Classes',
-    'JournalEntries',
-    'RevRecSchedules',
-    'RevRecScheduleEntries',
-    'CostTypes',
-    'OrderEntryTransactions',
-    'Allocations'
+    'ApiBase', 'Contacts', 'Contracts', 'ContractLines', 'Locations',
+    'Employees', 'Accounts', 'ExpenseTypes', 'Attachments', 'ExpenseReports',
+    'Vendors', 'Bills', 'Projects', 'Departments', 'ChargeCardAccounts',
+    'ChargeCardTransactions', 'Customers', 'Items', 'APPayments',
+    'AllocationEntry', 'ARInvoices', 'ARInvoiceItems', 'ARPayments',
+    'Reimbursements', 'CheckingAccounts', 'SavingsAccounts', 'Dimensions',
+    'DimensionValues', 'Tasks', 'ExpensePaymentTypes', 'LocationEntities',
+    'TaxDetails', 'GLDetail', 'Classes', 'JournalEntries', 'RevRecSchedules',
+    'RevRecScheduleEntries', 'CostTypes', 'OrderEntryTransactions',
+    'Purchasing', 'Allocations'
 ]
